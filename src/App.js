@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import GuestList from './GuestList'
 import Counter from './Counter'
-import data from './data'
 
 function App() {
   const [addName, setAddName] = useState('');
